@@ -40,10 +40,10 @@ This project applies supervised machine learning techniques to detect fake Insta
 
 ## Results
 
-- **Random Forest and Decision Tree** achieved the highest accuracy.
-- **Logistic Regression** achieved 94% precision and an 89% F1-score.
-- **SVM** had the lowest performance, possibly due to lack of feature separation.
-- Most spam accounts had shorter bios, fewer posts, and fewer followers, but correlations were not statistically strong enough to be considered reliable across all cases.
+- Logistic Regression was selected as the final model based on its balanced performance.
+- It achieved 96% precision and 87% recall for identifying fake accounts.
+- F1-score for fake class was 91%, with overall accuracy around 92%.
+- SVM underperformed compared to other models, often misclassifying real accounts.
 
 ## How to Run
 
